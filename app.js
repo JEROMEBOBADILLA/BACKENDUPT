@@ -15,7 +15,7 @@ app.use('/student', studentRoutes);
 try {
     const port = 3000; // define port variable
     app.listen(port, () => {
-        console.log(listening port ${port}...);
+        console.log(`listening port ${port}...`);
     });
 } catch (e) {
     console.log(e);
